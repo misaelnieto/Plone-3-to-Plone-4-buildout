@@ -1,0 +1,16 @@
+This is a very basic Buildout to aid myself to migrate data from Plone 3 
+to Plone 4.
+
+Directly upgrading to Plone 4 is easier than this.
+
+To build a plone 3 site:
+
+$ python2.4 bootstrap-plone3.py
+$ bin/buildout -c buildout-plone3.cfg
+
+To build a plone 4 site:
+
+$ python2.4 bootstrap-plone4.py
+$ bin/buildout -c buildout-plone4.cfg
+
+
